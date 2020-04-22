@@ -30,7 +30,7 @@ public class Vertex {
     
     // add an outgoing edge to the vertex's adjacency list
     public void addEdgeFrom(Edge e) {
-    	if (this.equals(e.from)) {
+    	if (this.equals(e.from)) { //take care of looping to itself
     		successors.add(e);
     	}
     	else throw new Error("Bad edge " + e);
