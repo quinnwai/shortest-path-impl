@@ -11,6 +11,6 @@ https://github.com/quinnwai/shortest-path-impl/tree/master/labs/spath/ShortestPa
 The most important function is the `run` function, which contains the set up and implementation of the algorithm
 
 ## Runtime
-For all |V| where |V| is the number of vertices,
-Sparse graph: \theta(|V|log|V|)
-Dense graph: \theta(|V|^2)
+For all |V| where |V| is the number of vertices:
+ - Sparse graph: \theta (|V|log|V|)
+ - Dense graph: \theta (|V|^2)
