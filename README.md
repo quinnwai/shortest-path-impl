@@ -12,5 +12,5 @@ The most important function is the `run` function, which contains the set up and
 
 ## Runtime
 For all |V| where |V| is the number of vertices:
- - _Sparse graph_: \theta (|V|log|V|)
- - _Dense graph_: \theta (|V|^2)
+ - Sparse graph: \theta (|V|log|V|)
+ - Dense graph: \theta (|V|^2)
