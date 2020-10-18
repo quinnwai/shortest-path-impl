@@ -2,18 +2,10 @@
 Implementing Dijkstra's algorithm to determine the shortest path within a graph in Java.
 
 ## Purpose
-Make use of arrays rather than maps as one method to implement Dijkstra's algorithm. Used as lab work for a data structures and algoithms course.
+Make use of hash maps and a priority queue as a means to implement Dijkstra's algorithm. Used as lab work for a data structures and algoithms course.
 
 ## Content Path
-https://github.com/quinnwai/shortest-path-impl/tree/master/labs/spath (see "Lab 13!" label)
+https://github.com/quinnwai/shortest-path-impl/tree/master/labs/spath/ShortestPaths.java
 
 ## Overview
-
-
-
-*Note: the original directory is located at cse247-s20-students-lab11*
-
-
-
-
-
+The most important function is the `run` function, which contains the set up and implementation of the algorithm
